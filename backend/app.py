@@ -69,6 +69,6 @@ def search():
 
     return jsonify(data)
 
-# 🔥 This is important: it actually starts the server when you run python app.py
+# This is important: it actually starts the server when you run python app.py
 if __name__ == "__main__":
     app.run(debug=True)
